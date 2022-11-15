@@ -1,0 +1,25 @@
+A.O.A my dear visitors
+Here i'm tryting to make your better understanding about C++ programms
+Using Terminal we will run programs
+First of all open your terminal or
+Use shortcut Ctrl+Alt+t
+go to your work folder or directory like computation_physics
+type file vi name with .cpp e.g vi enter_name.cpp then press enter.
+click insert button then
+paste following code
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+  string fullName;
+  cout << "Type your full name: ";
+  getline (cin, fullName);
+  cout << "Your name is: " << fullName;
+  return 0;
+}
+press Esc button
+type :wq
+Then g++ file name for example g++ enter_name.cpp press enter.
+it will compile your C++ program.
+Now we want to run program or take output following commands are used
